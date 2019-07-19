@@ -27,8 +27,8 @@ http://localhost:8080/employee/getEmployeeDetails/{employee-name}
 http://localhost:8080/employee/echoEmployeeName/{employee-name}
 
 # Tech Stack and Runtime
-Java 1.8 and Eclipse IDE as development environment
-Spring cloud Zuul as Gateway proxy provider
-Spring boot as application framework
-Spring Rest for exposing microservice as REST
-Gradle as build tool
+Java 1.8 and Eclipse IDE as development environment,
+Spring cloud Zuul as Gateway proxy provider,
+Spring boot as application framework,
+Spring Rest for exposing microservice as REST,
+Gradle as build tool.
