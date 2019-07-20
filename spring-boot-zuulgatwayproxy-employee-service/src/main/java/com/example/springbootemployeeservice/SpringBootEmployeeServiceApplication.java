@@ -14,13 +14,13 @@ import com.example.springbootemployeeservice.model.Employee;
 public class SpringBootEmployeeServiceApplication
 {
     @RequestMapping(value = "/echoEmployeeName/{name}")
-    public String echoStudentName(@PathVariable(name = "name") String name)
+    public String echoEmployeeName(@PathVariable(name = "name") String name)
     {
         return "hello  <strong style=\"color: red;\">" + name + " </strong> Responsed on : " + new Date();
     }
  
     @RequestMapping(value = "/getEmployeeDetails/{name}")
-    public Employee getStudentDetails(@PathVariable(name = "name") String name)
+    public Employee getEmployeeDetails(@PathVariable(name = "name") String name)
     {
         return new Employee(name, "IT", "4291");
     }
